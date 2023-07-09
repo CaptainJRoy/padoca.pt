@@ -1,7 +1,7 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import { FiFacebook, FiInstagram } from "react-icons/fi";
 
-import { FooterOverlay, Newsletter } from "../../components";
+import { FooterOverlay } from "../../components";
 import { images } from "../../constants";
 import "./Footer.css";
 
@@ -30,9 +30,8 @@ const Footer = () => (
           alt="spoon"
         />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <FiFacebook href="https://www.facebook.com/padocavngaia" />
+          <FiInstagram href="https://www.instagram.com/padocaveganrestaurant/" />
         </div>
       </div>
 
@@ -46,7 +45,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">2023 Padoca. All Rights reserved.</p>
     </div>
   </div>
 );
