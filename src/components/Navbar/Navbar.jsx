@@ -1,36 +1,29 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-import images from "../../constants/images";
+import { data } from "../../constants";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
+  const labels = data.labels[data.language].navbar;
+
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app__logo" />
-      </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans">
+        <li className="p__white_opensans">
           <a href="#home">Home</a>
         </li>
-        <li className="p__opensans">
-          <a href="#about">About</a>
+        <li className="p__white_opensans">
+          <a href="#about">{labels.about}</a>
         </li>
-        <li className="p__opensans">
-          <a href="#menu">Menu</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#awards">Awards</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#contact">Contact</a>
+        <li className="p__white_opensans">
+          <a href="#menu">{labels.menu}</a>
         </li>
       </ul>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
-          color="#fff"
+          color="var(--color-white)"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
@@ -49,22 +42,12 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="#about" onClick={() => setToggleMenu(false)}>
-                  About
+                  {labels.about}
                 </a>
               </li>
               <li>
                 <a href="#menu" onClick={() => setToggleMenu(false)}>
-                  Menu
-                </a>
-              </li>
-              <li>
-                <a href="#awards" onClick={() => setToggleMenu(false)}>
-                  Awards
-                </a>
-              </li>
-              <li>
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
-                  Contact
+                  {labels.menu}
                 </a>
               </li>
             </ul>

@@ -8,10 +8,44 @@ export function toggleLanguage(lang) {
 
 export const labels = {
   en: {
-    home: 'Home',
+    navbar: {
+      about: 'About Us',
+      menu: 'Menu'
+    },
+    footer: {
+      contact_us: 'Where to find us',
+      schedule: 'Schedule',
+      open_hours: [
+        {
+          days: 'Tuesday - Saturday',
+          hours: '10am - 10pm'
+        },
+        {
+          days: 'Sunday - Monday',
+          hours: 'Closed'
+        }
+      ]
+    }
   },
   pt: {
-    home: 'Início',
+    navbar: {
+      about: 'Sobre Nós',
+      menu: 'Menu'
+    },
+    footer: {
+      contact_us: 'Onde estamos?',
+      schedule: 'Horário Funcionamento',
+      open_hours: [
+        {
+          days: 'Terça - Sábado',
+          hours: '10h00 - 22h00'
+        },
+        {
+          days: 'Domingo - Segunda',
+          hours: 'Encerrado'
+        }
+      ]
+    }
   }
 };
 
