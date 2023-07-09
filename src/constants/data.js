@@ -4,27 +4,42 @@ export const wines = [
   {
     title: 'Chapel Hill Shiraz',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags: {
+      en: 'AU | Bottle',
+      pt: 'AU | Garrafa'
+    }
   },
   {
     title: 'Catena Malbee',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: {
+      en: 'AU | Bottle',
+      pt: 'AU | Garrafa'
+    }
   },
   {
     title: 'La Vieillw Rose',
     price: '$44',
-    tags: 'FR | 750 ml',
+    tags: {
+      en: 'FR | 750 ml',
+      pt: 'FR | 750 ml'
+    }
   },
   {
     title: 'Rhino Pale Ale',
     price: '$31',
-    tags: 'CA | 750 ml',
+    tags: {
+      en: 'CA | 750 ml',
+      pt: 'CA | 750 ml'
+    }
   },
   {
     title: 'Irish Guinness',
     price: '$26',
-    tags: 'IE | 750 ml',
+    tags: {
+      en: 'IE | 750 ml',
+      pt: 'IE | 750 ml'
+    }
   },
 ];
 
@@ -32,27 +47,42 @@ export const cocktails = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: {
+      en: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+      pt: 'Aperol | Villa Marchesi prosecco | Refrigerante | 30 ml'
+    }
   },
   {
     title: "Dark 'N' Stormy",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: {
+      en: 'Dark rum | Ginger beer | Slice of lime',
+      pt: 'Rum escuro | Cerveja de gengibre | Fatia de limão'
+    }
   },
   {
     title: 'Daiquiri',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: {
+      en: 'Rum | Citrus juice | Sugar',
+      pt: 'Rum | Sumo de citrinos | Açúcar'
+    }
   },
   {
     title: 'Old Fashioned',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: {
+      en: 'Bourbon | Brown sugar | Angostura Bitters',
+      pt: 'Bourbon | Açúcar mascavo | Angostura Bitters'
+    }
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: {
+      en: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+      pt: 'Gin | Vermute doce | Campari | Laranja'
+    }
   },
 ];
 
@@ -60,21 +90,33 @@ export const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: {
+      en: 'Lorem ipsum dolor sit amet, consectetur.',
+      pt: 'Lorem ipsum dolor sit amet, consectetur.'
+    }
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: {
+      en: 'Lorem ipsum dolor sit amet, consectetur.',
+      pt: 'Lorem ipsum dolor sit amet, consectetur.'
+    }
   },
   {
     imgUrl: images.award05,
     title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: {
+      en: 'Lorem ipsum dolor sit amet, consectetur.',
+      pt: 'Lorem ipsum dolor sit amet, consectetur.'
+    }
   },
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: {
+      en: 'Lorem ipsum dolor sit amet, consectetur.',
+      pt: 'Lorem ipsum dolor sit amet, consectetur.'
+    }
   },
 ];

@@ -1,10 +1,10 @@
-# Gericht-UX-UI-Lending
+# Padoca.pt
 
-## <a href="https://gerichtdeutch.netlify.app/">VIEW LIVE RESULT</a>
-The site may be slow or may not load correctly, please reload or wait...(netlify problems)*
+## <a href="https://captainjroy.github.io/padoca.pt/">VIEW LIVE RESULT</a>
 
-![Image text](https://github.com/MorgDzh/Gericht-UX-UI-Lending/blob/main/src/assets/resimg.png)
 
 ## Intoduction
+A fully responsive beautiful and simple lending made for restaurant, written on react with using react-icons.
 
-A fully responsive beautiful and simple lending made for restaurant, written on react with using react-icons and deployed on netlify.
+
+dont forget to add:    "homepage": "./", in package.json
