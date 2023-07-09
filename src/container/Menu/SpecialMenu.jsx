@@ -21,7 +21,7 @@ const SpecialMenu = () => (
               key={wine.title + index}
               title={wine.title}
               price={wine.price}
-              tags={wine.tags}
+              tags={wine.tags[data.language]}
             />
           ))}
         </div>
@@ -39,7 +39,7 @@ const SpecialMenu = () => (
               key={cocktail.title + index}
               title={cocktail.title}
               price={cocktail.price}
-              tags={cocktail.tags}
+              tags={cocktail.tags[data.language]}
             />
           ))}
         </div>

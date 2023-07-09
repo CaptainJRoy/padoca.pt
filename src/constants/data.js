@@ -1,5 +1,20 @@
 import images from './images';
 
+export let language = 'pt';
+export function toggleLanguage(lang) {
+  language = lang === 'pt' ? 'pt' : 'en';
+}
+
+
+export const labels = {
+  en: {
+    home: 'Home',
+  },
+  pt: {
+    home: 'Início',
+  }
+};
+
 export const wines = [
   {
     title: 'Chapel Hill Shiraz',
