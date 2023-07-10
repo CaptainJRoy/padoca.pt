@@ -1,5 +1,6 @@
 import React from "react";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
+import { FaTripadvisor } from "react-icons/fa";
 
 import { data, images } from "../../constants";
 import "./Footer.css";
@@ -33,11 +34,12 @@ const Footer = () => {
         </div>
 
         <div className="app__footer-links_logo">
-          <img src={images.padoca_text} alt="footer_logo" />
+          <img src={images.padoca_text} alt="footer_logo"/>
           <p className="p__black_opensans"></p>
           <div className="app__footer-links_icons">
             <a href="https://www.facebook.com/padocavngaia"><FiFacebook/></a>
             <a href="https://www.instagram.com/padocaveganrestaurant/"><FiInstagram/></a>
+            <a href="https://www.tripadvisor.pt/Restaurant_Review-g580268-d24182395-Reviews-Padoca_Vegan_Gaia-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html?m=19905"><FaTripadvisor/></a>
           </div>
         </div>
 
