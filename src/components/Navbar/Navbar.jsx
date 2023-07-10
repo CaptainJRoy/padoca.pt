@@ -20,6 +20,9 @@ const Navbar = () => {
         <li className="p__white_opensans">
           <a href="#menu">{labels.menu}</a>
         </li>
+        <li className="p__white_opensans">
+          <a href="#contacts">{labels.contact_us}</a>
+        </li>
       </ul>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
@@ -48,6 +51,11 @@ const Navbar = () => {
               <li>
                 <a href="#menu" onClick={() => setToggleMenu(false)}>
                   {labels.menu}
+                </a>
+              </li>
+              <li>
+                <a href="#contacts" onClick={() => setToggleMenu(false)}>
+                  {labels.contact_us}
                 </a>
               </li>
             </ul>

@@ -14,7 +14,7 @@ const Footer = () => {
   });
 
   return (
-    <div className="app__footer section__padding" id="login">
+    <div className="app__footer section__padding" id="contacts">
       <div className="app__footer-links">
         <div className="app__footer-links_contact">
           <h1 className="app__footer-headtext">{labels.contact_us}</h1>
@@ -49,6 +49,9 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <p className="p__black_opensans">2023 Padoca. All Rights reserved.</p>
+        <p className="p__black_opensans" style={{textAlign: 'center', fontSize: '12px'}} >
+          Made with 💙 by <a href="https://github.com/CaptainJRoy">CaptainJRoy</a>
+        </p>
       </div>
     </div>
   )

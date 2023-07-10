@@ -10,13 +10,23 @@ export const labels = {
   en: {
     navbar: {
       about: 'About Us',
-      menu: 'Menu'
+      menu: 'Menu',
+      contact_us: 'Where to find us'
     },
     header: {
       sub_heading: '100% plant based food!',
       title: 'Pursuing a sustainable future',
       text: 'Come and taste our 100% plant based menues. From breakfast to dinner, we\'ve got you covered.',
       explore_menu: 'Explore our menu'
+    },
+    menu: {
+      sub_heading: 'Menu that fits your palatte',
+      description: 'We have a wide variety of dishes, from breakfast to dinner. We also have a wide variety of drinks, from wines to cocktails.',
+    },
+    gallery: {
+      title: 'Photo Gallery',
+      description: 'Get a sneak peak at what we have to offer. Explore more delicious food through our Instagram.',
+      see_more: 'View more'
     },
     footer: {
       contact_us: 'Where to find us',
@@ -25,6 +35,10 @@ export const labels = {
         {
           days: 'Tuesday - Saturday',
           hours: '10am - 10pm'
+        },
+        {
+          days: 'Bank Hollidays',
+          hours: '10h00 - 15h00'
         },
         {
           days: 'Sunday - Monday',
@@ -36,13 +50,23 @@ export const labels = {
   pt: {
     navbar: {
       about: 'Sobre Nós',
-      menu: 'Menu'
+      menu: 'Menu',
+      contact_us: 'Onde Estamos'
     },
     header: {
       sub_heading: 'Comida 100% à base de plantas!',
       title: 'Por um planeta mais sustentável',
       text: 'Vem saborear os nossos menus 100% Vegetais. Desde pequenos almoços a jantar, temos tudo o que possas procurar.',
       explore_menu: 'Explora o nosso menu'
+    },
+    menu: {
+      sub_heading: 'Um menu para todos os gostos',
+      description: 'We have a wide variety of dishes, from breakfast to dinner. We also have a wide variety of drinks, from wines to cocktails.',
+    },
+    gallery: {
+      title: 'Galeria de Fotos',
+      description: 'Vê um pouco do que te temos para oferecer. Explora mais comida deliciosa através do nosso Instagram.',
+      see_more: 'Ver mais'
     },
     footer: {
       contact_us: 'Onde estamos?',
@@ -51,6 +75,10 @@ export const labels = {
         {
           days: 'Terça - Sábado',
           hours: '10h00 - 22h00'
+        },
+        {
+          days: 'Feriados',
+          hours: '10h00 - 15h00'
         },
         {
           days: 'Domingo - Segunda',

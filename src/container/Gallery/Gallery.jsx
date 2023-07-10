@@ -6,11 +6,12 @@ import {
 } from "react-icons/bs";
 
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
+import { data, images } from "../../constants";
 import "./Gallery.css";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
+  const labels = data.labels[data.language].gallery;
 
   const scroll = (direction) => {
     const { current } = scrollRef;
@@ -26,16 +27,13 @@ const Gallery = () => {
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
-        <p
-          className="p__white_opensans"
-          style={{ color: "#AAAAAA", marginTop: "2rem" }}
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+        <h1 className="headtext__cormorant">{labels.title}</h1>
+        <p className="p__white_opensans"
+          style={{ color: "#AAAAAA", marginTop: "2rem" }} >
+          {labels.description}
         </p>
-        <button type="button" className="custom__button">
-          View More
+        <button type="button" className="custom__button" onClick={() => window.open('https://www.instagram.com/padocaveganrestaurant/')}>
+          {labels.see_more}
         </button>
       </div>
       <div className="app__gallery-images">

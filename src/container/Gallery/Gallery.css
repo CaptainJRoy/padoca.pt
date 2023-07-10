@@ -1,7 +1,7 @@
 .app__gallery {
   flex-direction: row;
 
-  background: var(--color-black);
+  background: var(--color-white);
   padding: 4rem 0 4rem 6rem;
 }
 
@@ -78,17 +78,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 1rem;
   position: absolute;
-  bottom: 5%;
+  bottom: 46%;
 }
 
 .gallery__arrow-icon {
-  color: var(--color-dark-blue);
+  color: var(--color-white);
+  background: var(--color-black);
   font-size: 2rem;
   cursor: pointer;
-  background: var(--color-black);
   border-radius: 5px;
 }
 
