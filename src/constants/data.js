@@ -12,6 +12,12 @@ export const labels = {
       about: 'About Us',
       menu: 'Menu'
     },
+    header: {
+      sub_heading: '100% plant based food!',
+      title: 'Pursuing a sustainable future',
+      text: 'Come and taste our 100% plant based menues. From breakfast to dinner, we\'ve got you covered.',
+      explore_menu: 'Explore our menu'
+    },
     footer: {
       contact_us: 'Where to find us',
       schedule: 'Schedule',
@@ -31,6 +37,12 @@ export const labels = {
     navbar: {
       about: 'Sobre Nós',
       menu: 'Menu'
+    },
+    header: {
+      sub_heading: 'Comida 100% à base de plantas!',
+      title: 'Por um planeta mais sustentável',
+      text: 'Vem saborear os nossos menus 100% Vegetais. Desde pequenos almoços a jantar, temos tudo o que possas procurar.',
+      explore_menu: 'Explora o nosso menu'
     },
     footer: {
       contact_us: 'Onde estamos?',

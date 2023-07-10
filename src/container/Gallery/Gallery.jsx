@@ -41,18 +41,17 @@ const Gallery = () => {
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {[
-            images.gallery01,
-            images.gallery02,
-            images.gallery03,
-            images.gallery04,
-          ].map((image, index) => (
-            <div
-              className="app__gallery-images_card flex__center"
-              key={`gallery_image-${index + 1}`}
-            >
-              <img src={image} alt="gallery_image" />
-              <BsInstagram className="gallery__image-icon" />
-            </div>
+            {image: images.gallery01, url: 'https://www.instagram.com/p/CtUJIjjsiVi/'},
+            {image: images.gallery02, url: 'https://www.instagram.com/p/CsToRVGs5CD/'},
+            {image: images.gallery03, url: 'https://www.instagram.com/p/Cr3oRxgIcg0/'},
+            {image: images.gallery04, url: 'https://www.instagram.com/p/CrAycU5MLWP/'}
+          ].map((imageObj, index) => (
+            <a href={imageObj.url} key={`gallery_image-${index + 1}`} >
+              <div className="app__gallery-images_card flex__center" >
+                <img src={imageObj.image} alt="gallery_image" />
+                <BsInstagram className="gallery__image-icon" />
+              </div>
+            </a>
           ))}
         </div>
         <div className="app__gallery-images_arrows">

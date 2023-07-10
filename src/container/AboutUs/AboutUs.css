@@ -2,17 +2,6 @@
   position: relative;
 }
 
-.app__aboutus-overlay {
-  position: absolute;
-  inset: 0;
-}
-
-.app__aboutus-overlay img {
-  width: 391px;
-  height: 415px;
-  z-index: 0;
-}
-
 .app__aboutus-content {
   width: 100%;
   z-index: 2;
@@ -70,12 +59,5 @@
 
   .app__aboutus-content_knife {
     margin: 4rem 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .app__aboutus-overlay img {
-    width: 80%;
-    height: 320px;
   }
 }

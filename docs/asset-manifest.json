@@ -1,34 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.59e29a70.css",
-    "main.js": "/static/js/main.a4b12742.js",
-    "static/media/meal.mp4": "/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "main.css": "/static/css/main.06c4d86c.css",
+    "main.js": "/static/js/main.b0218a6b.js",
     "static/media/bg.png": "/static/media/bg.3d421b1b5682e1b67deb.png",
-    "static/media/welcome.png": "/static/media/welcome.d724eb984456d9c97470.png",
     "static/media/menu.png": "/static/media/menu.a8287c67809afebcc280.png",
-    "static/media/gallery04.png": "/static/media/gallery04.c36a695f8a3b9d311106.png",
-    "static/media/gallery03.png": "/static/media/gallery03.b2d50180e8590d4dd330.png",
-    "static/media/gallery02.png": "/static/media/gallery02.27663bd9016b72ccd328.png",
     "static/media/padoca_logo.png": "/static/media/padoca_logo.dc3192b9c6da4d54c7e5.png",
-    "static/media/gallery01.png": "/static/media/gallery01.f2cbffe3049d6f91e0df.png",
     "static/media/knife.png": "/static/media/knife.1121c0a5afb62acb31cb.png",
-    "static/media/overlaybg.png": "/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/gallery03.jpg": "/static/media/gallery03.f6fd94f0fffb13dcd54d.jpg",
+    "static/media/gallery01.jpg": "/static/media/gallery01.1a71604be7cffae8d981.jpg",
+    "static/media/gallery02.jpg": "/static/media/gallery02.3e98b7b95e9ad84ee321.jpg",
+    "static/media/gallery04.jpg": "/static/media/gallery04.3fa612ac878a3fc41758.jpg",
     "static/media/padoca_logo.jpeg": "/static/media/padoca_logo.1abd95fed52a3e5267b9.jpeg",
     "static/media/padoca_text.png": "/static/media/padoca_text.399ddc12521c6a407778.png",
-    "static/media/G.png": "/static/media/G.b571eb82e589ec305ec9.png",
-    "static/media/logo.png": "/static/media/logo.0286194c03de0a90dac9.png",
-    "static/media/award02.png": "/static/media/award02.8bbdd51499739653b003.png",
-    "static/media/award05.png": "/static/media/award05.48a7f5206184009dcb29.png",
-    "static/media/award01.png": "/static/media/award01.361a4bc44b59b55abeda.png",
-    "static/media/award03.png": "/static/media/award03.3f7ee934c17dccbd5fc6.png",
-    "static/media/sign.png": "/static/media/sign.9bf0bd90ad4caa17991f.png",
-    "index.html": "/index.html",
     "static/media/spoon.svg": "/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.59e29a70.css.map": "/static/css/main.59e29a70.css.map",
-    "main.a4b12742.js.map": "/static/js/main.a4b12742.js.map"
+    "index.html": "/index.html",
+    "main.06c4d86c.css.map": "/static/css/main.06c4d86c.css.map",
+    "main.b0218a6b.js.map": "/static/js/main.b0218a6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.59e29a70.css",
-    "static/js/main.a4b12742.js"
+    "static/css/main.06c4d86c.css",
+    "static/js/main.b0218a6b.js"
   ]
 }

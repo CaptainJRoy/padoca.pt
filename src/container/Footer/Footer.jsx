@@ -36,8 +36,8 @@ const Footer = () => {
           <img src={images.padoca_text} alt="footer_logo" />
           <p className="p__black_opensans"></p>
           <div className="app__footer-links_icons">
-            <FiFacebook href="https://www.facebook.com/padocavngaia" />
-            <FiInstagram href="https://www.instagram.com/padocaveganrestaurant/" />
+            <a href="https://www.facebook.com/padocavngaia"><FiFacebook/></a>
+            <a href="https://www.instagram.com/padocaveganrestaurant/"><FiInstagram/></a>
           </div>
         </div>
 
