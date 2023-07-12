@@ -94,7 +94,7 @@ export const labels = {
 export const food = [
   {
     title: 'Francesinha à Padoca',
-    price: '12€',
+    price: '12,00€',
     tags: {
       en: 'Seitan, Chourizo, Sausage, Tofu Bacon, Chuxxse e Francesinha Sauce',
       pt: 'Seitan, Chouriço, Salsicha, Bacon de Tofu, Quxxjo e Molho'
@@ -102,7 +102,7 @@ export const food = [
   },
   {
     title: 'Burguer à Padoca',
-    price: '12€',
+    price: '12,00€',
     tags: {
       en: 'Tomato, Veggie Burger, Vegan Cheddar, Tofu Bacon, Chxxse and Francesinha Sauce',
       pt: 'Tomate, Burguer Carne Vegetal, Cheddar Vegan, Bacon de Tofu, Quxxjo e Molho'

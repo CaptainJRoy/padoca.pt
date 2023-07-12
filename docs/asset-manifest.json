@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.66bf1e99.css",
-    "main.js": "/static/js/main.83427ca6.js",
+    "main.css": "/static/css/main.adacfdb1.css",
+    "main.js": "/static/js/main.e059b529.js",
     "static/media/bg.png": "/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/padoca_bg.jpg": "/static/media/padoca_bg.7679167534ac02abe6d0.jpg",
     "static/media/padoca_logo.png": "/static/media/padoca_logo.dc3192b9c6da4d54c7e5.png",
@@ -16,11 +16,11 @@
     "static/media/padoca_text.png": "/static/media/padoca_text.399ddc12521c6a407778.png",
     "static/media/spoon.svg": "/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
     "index.html": "/index.html",
-    "main.66bf1e99.css.map": "/static/css/main.66bf1e99.css.map",
-    "main.83427ca6.js.map": "/static/js/main.83427ca6.js.map"
+    "main.adacfdb1.css.map": "/static/css/main.adacfdb1.css.map",
+    "main.e059b529.js.map": "/static/js/main.e059b529.js.map"
   },
   "entrypoints": [
-    "static/css/main.66bf1e99.css",
-    "static/js/main.83427ca6.js"
+    "static/css/main.adacfdb1.css",
+    "static/js/main.e059b529.js"
   ]
 }

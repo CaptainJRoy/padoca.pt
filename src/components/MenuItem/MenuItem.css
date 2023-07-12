@@ -24,7 +24,7 @@
 .app__menuitem-dash {
   width: 90px;
   height: 1px;
-  background: var(--color-dark-blue);
+  background: var(--color-white);
   margin: 0 1rem;
 }
 
