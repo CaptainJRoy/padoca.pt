@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9d7840f.css",
-    "main.js": "/static/js/main.5476f0a1.js",
+    "main.css": "/static/css/main.66bf1e99.css",
+    "main.js": "/static/js/main.83427ca6.js",
     "static/media/bg.png": "/static/media/bg.3d421b1b5682e1b67deb.png",
-    "static/media/padoca_bg.png": "/static/media/padoca_bg.3a48260e290d9d04faad.png",
-    "static/media/menu.png": "/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/padoca_bg.jpg": "/static/media/padoca_bg.7679167534ac02abe6d0.jpg",
     "static/media/padoca_logo.png": "/static/media/padoca_logo.dc3192b9c6da4d54c7e5.png",
     "static/media/knife.png": "/static/media/knife.1121c0a5afb62acb31cb.png",
     "static/media/gallery03.jpg": "/static/media/gallery03.f6fd94f0fffb13dcd54d.jpg",
     "static/media/gallery01.jpg": "/static/media/gallery01.1a71604be7cffae8d981.jpg",
     "static/media/gallery02.jpg": "/static/media/gallery02.3e98b7b95e9ad84ee321.jpg",
     "static/media/gallery04.jpg": "/static/media/gallery04.3fa612ac878a3fc41758.jpg",
+    "static/media/menu.jpg": "/static/media/menu.6a6ddd3f8add4b0ca389.jpg",
     "static/media/padoca_logo.jpeg": "/static/media/padoca_logo.1abd95fed52a3e5267b9.jpeg",
     "static/media/vegan.png": "/static/media/vegan.2cde6438a68c879f0948.png",
     "static/media/padoca_text.png": "/static/media/padoca_text.399ddc12521c6a407778.png",
     "static/media/spoon.svg": "/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
     "index.html": "/index.html",
-    "main.d9d7840f.css.map": "/static/css/main.d9d7840f.css.map",
-    "main.5476f0a1.js.map": "/static/js/main.5476f0a1.js.map"
+    "main.66bf1e99.css.map": "/static/css/main.66bf1e99.css.map",
+    "main.83427ca6.js.map": "/static/js/main.83427ca6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9d7840f.css",
-    "static/js/main.5476f0a1.js"
+    "static/css/main.66bf1e99.css",
+    "static/js/main.83427ca6.js"
   ]
 }

@@ -1,6 +1,6 @@
 .app__specialMenu {
   flex-direction: column;
-  background: var(--color-blue);
+  background: linear-gradient(0deg, var(--color-white) 0%, var(--color-dark-blue) 5%, var(--color-dark-blue) 95%, var(--color-white) 100%);
 }
 
 .app__specialMenu-title {
@@ -27,7 +27,7 @@
   color: var(--color-white);
 }
 
-.app__specialMenu-menu_wine,
+.app__specialMenu-menu_food,
 .app__specialMenu-menu_cocktails {
   flex: 1;
   width: 100%;

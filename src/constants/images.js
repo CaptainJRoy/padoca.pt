@@ -5,7 +5,7 @@ import gallery03 from '../assets/gallery03.jpg';
 import gallery04 from '../assets/gallery04.jpg';
 import knife from '../assets/knife.png';
 import vegan from '../assets/vegan.png';
-import menu from '../assets/menu.png';
+import menu from '../assets/menu.jpg';
 import spoon from '../assets/spoon.svg';
 import padoca_logo from '../assets/padoca_logo.png';
 import padoca_logo_jpeg from '../assets/padoca_logo.jpeg';

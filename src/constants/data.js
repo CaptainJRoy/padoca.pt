@@ -1,5 +1,3 @@
-import images from './images';
-
 export let language = 'pt';
 export function toggleLanguage(lang) {
   language = lang === 'pt' ? 'pt' : 'en';
@@ -21,7 +19,9 @@ export const labels = {
     },
     menu: {
       sub_heading: 'Menu that fits your palatte',
-      description: 'We have a wide variety of dishes, from breakfast to dinner. We also have a wide variety of drinks, from wines to cocktails.',
+      description: 'Chef\'s recommendations',
+      food: 'Food',
+      drinks: 'Bar',
     },
     gallery: {
       title: 'Photo Gallery',
@@ -61,7 +61,9 @@ export const labels = {
     },
     menu: {
       sub_heading: 'Um menu para todos os gostos',
-      description: 'We have a wide variety of dishes, from breakfast to dinner. We also have a wide variety of drinks, from wines to cocktails.',
+      description: 'Sugestão do Chef',
+      food: 'Comida',
+      drinks: 'Bar',
     },
     gallery: {
       title: 'Galeria de Fotos',
@@ -89,123 +91,80 @@ export const labels = {
   }
 };
 
-export const wines = [
+export const food = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
+    title: 'Francesinha à Padoca',
+    price: '12€',
     tags: {
-      en: 'AU | Bottle',
-      pt: 'AU | Garrafa'
+      en: 'Seitan, Chourizo, Sausage, Tofu Bacon, Chuxxse e Francesinha Sauce',
+      pt: 'Seitan, Chouriço, Salsicha, Bacon de Tofu, Quxxjo e Molho'
     }
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
+    title: 'Burguer à Padoca',
+    price: '12€',
     tags: {
-      en: 'AU | Bottle',
-      pt: 'AU | Garrafa'
+      en: 'Tomato, Veggie Burger, Vegan Cheddar, Tofu Bacon, Chxxse and Francesinha Sauce',
+      pt: 'Tomate, Burguer Carne Vegetal, Cheddar Vegan, Bacon de Tofu, Quxxjo e Molho'
     }
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
+    title: 'Burguês',
+    price: '11,50€',
     tags: {
-      en: 'FR | 750 ml',
-      pt: 'FR | 750 ml'
+      en: 'Mayonnaise, Lettuce, Tomato, Pickle, Veggie Burger, Vegan Greek Chxxse and Caramelized Onion',
+      pt: 'Maionese, Alface, Tomate, Cornichão, Burguer Carne Vegetal, Quxxjo Grego e Cebola Caramelizada'
     }
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
+    title: 'Mexicano',
+    price: '8,50€',
     tags: {
-      en: 'CA | 750 ml',
-      pt: 'CA | 750 ml'
+      en: 'Creamy Cheddar, Portobelo Mushroom, Black Beans, Lettuce, Carrot, Corn and Cucumber',
+      pt: 'Cheddar Cremoso, Cogumelo Portobelo, Feijão Preto, Alface, Cenoura, Milho e Pepino'
     }
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: {
-      en: 'IE | 750 ml',
-      pt: 'IE | 750 ml'
-    }
-  },
+  }
 ];
 
-export const cocktails = [
+export const drinks = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
+    title: 'Limonada do Dia',
+    price: '2,60€',
     tags: {
-      en: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-      pt: 'Aperol | Villa Marchesi prosecco | Refrigerante | 30 ml'
+      en: '',
+      pt: ''
     }
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
+    title: "Sumo do Dia",
+    price: '2,80€',
     tags: {
-      en: 'Dark rum | Ginger beer | Slice of lime',
-      pt: 'Rum escuro | Cerveja de gengibre | Fatia de limão'
+      en: '',
+      pt: ''
     }
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
+    title: 'Sumo Laranja Natural',
+    price: '2,80€',
     tags: {
-      en: 'Rum | Citrus juice | Sugar',
-      pt: 'Rum | Sumo de citrinos | Açúcar'
+      en: '',
+      pt: ''
     }
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
+    title: 'Gin',
+    price: '7,80€',
     tags: {
-      en: 'Bourbon | Brown sugar | Angostura Bitters',
-      pt: 'Bourbon | Açúcar mascavo | Angostura Bitters'
+      en: '',
+      pt: ''
     }
   },
   {
-    title: 'Negroni',
-    price: '$26',
+    title: 'Água',
+    price: '1,20€',
     tags: {
-      en: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-      pt: 'Gin | Vermute doce | Campari | Laranja'
-    }
-  },
-];
-
-export const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: {
-      en: 'Lorem ipsum dolor sit amet, consectetur.',
-      pt: 'Lorem ipsum dolor sit amet, consectetur.'
-    }
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: {
-      en: 'Lorem ipsum dolor sit amet, consectetur.',
-      pt: 'Lorem ipsum dolor sit amet, consectetur.'
-    }
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: {
-      en: 'Lorem ipsum dolor sit amet, consectetur.',
-      pt: 'Lorem ipsum dolor sit amet, consectetur.'
-    }
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: {
-      en: 'Lorem ipsum dolor sit amet, consectetur.',
-      pt: 'Lorem ipsum dolor sit amet, consectetur.'
+      en: '50cl',
+      pt: '50cl'
     }
   },
 ];

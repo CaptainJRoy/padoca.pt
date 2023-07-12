@@ -12,14 +12,14 @@ const SpecialMenu = () => {
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
         <SubHeading title={labels.sub_heading} />
-        <h1 className="headtext__cormorant">Today&apos;s Special</h1>
+        <h1 className="headtext__cormorant_white">{labels.description}</h1>
       </div>
 
       <div className="app__specialMenu-menu">
-        <div className="app__specialMenu-menu_wine  flex__center">
-          <p className="app__specialMenu-menu_heading">Wine & Beer</p>
+        <div className="app__specialMenu-menu_food  flex__center">
+          <p className="app__specialMenu-menu_heading">{labels.food}</p>
           <div className="app__specialMenu_menu_items">
-            {data.wines.map((wine, index) => (
+            {data.food.map((wine, index) => (
               <MenuItem
                 key={wine.title + index}
                 title={wine.title}
@@ -31,13 +31,13 @@ const SpecialMenu = () => {
         </div>
 
         <div className="app__specialMenu-menu_img">
-          <img src={images.menu} alt="menu__img" />
+          <img style={{boxShadow: '0 0 25px var(--color-light-blue)'}} src={images.menu} alt="menu__img" />
         </div>
 
         <div className="app__specialMenu-menu_cocktails  flex__center">
-          <p className="app__specialMenu-menu_heading">Cocktails</p>
+          <p className="app__specialMenu-menu_heading">{labels.drinks}</p>
           <div className="app__specialMenu_menu_items">
-            {data.cocktails.map((cocktail, index) => (
+            {data.drinks.map((cocktail, index) => (
               <MenuItem
                 key={cocktail.title + index}
                 title={cocktail.title}
